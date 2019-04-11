@@ -16,8 +16,7 @@ begin
 		when no_data_found then
 			dbms_output.put_line('No existe la provincia');
 	end;
+/
 --Exception 
 	--when error then
-		--dbms_output.put_line('No existe');
-end;	
-/
+		--dbms_output.put_line('No existe');	
